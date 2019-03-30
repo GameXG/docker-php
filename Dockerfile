@@ -1,6 +1,6 @@
 FROM atsu666/ioncube:5.6
 
-RUN RUN docker-php-ext-install bcmath
+RUN docker-php-ext-install bcmath
 
 RUN curl -o ioncube.tar.gz "http://downloads3.ioncube.com/loader_downloads/ioncube_loaders_lin_x86-64.tar.gz" \
     && mkdir -p ioncube \
